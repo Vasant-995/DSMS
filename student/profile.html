@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Driving-School-Management-System</title>
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="../asset/fontawesome/css/all.min.css">
+      <link rel="stylesheet" href="../asset/css/adminlte.min.css">
+      <link rel="stylesheet" href="../asset/css/style.css">
+   </head>
+   <body class="hold-transition sidebar-mini layout-fixed">
+      <div class="wrapper">
+         <!-- Navbar -->
+         <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+            <!-- Right navbar links -->
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item">
+                  <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+                  <i class="fas fa-expand-arrows-alt"></i>
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" data-widget="fullscreen" href="../index.html">
+                  <i class="fas fa-power-off"></i>
+                  </a>
+               </li>
+            </ul>
+         </nav>
+         <!-- /.navbar -->
+         <!-- Main Sidebar Container -->
+         <aside class="main-sidebar sidebar-dark-primary elevation-4" style="background-color: rgba(62,88,113);">
+            <!-- Brand Logo -->
+            <a href="index.html" class="brand-link">
+            <img src="../asset/img/logo1.png" alt="DSMS Logo" width="200">
+            </a>
+            <!-- Sidebar -->
+            <div class="sidebar">
+               <!-- Sidebar user panel (optional) -->
+               <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                  <div class="image">
+                     <img src="../asset/img/avatar.jpg" class="img-circle elevation-2" alt="User Image">
+                  </div>
+                  <div class="info">
+                     <a href="#" class="d-block">Juan Dela Cruz</a>
+                  </div>
+               </div>
+               <!-- Sidebar Menu -->
+               <nav class="mt-2">
+                  <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                     <li class="nav-item">
+                        <a href="index.html" class="nav-link">
+                           <i class="nav-icon fa fa-tachometer-alt"></i>
+                           <p>
+                              Dashboard
+                           </p>
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="profile.html" class="nav-link">
+                           <i class="nav-icon fa fa-user"></i>
+                           <p>
+                              My Profile
+                           </p>
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="schedule.html" class="nav-link">
+                           <i class="nav-icon fa fa-book"></i>
+                           <p>
+                              Schedules
+                           </p>
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="payment.html" class="nav-link">
+                           <i class="nav-icon fa fa-money-bill"></i>
+                           <p>
+                              Payment
+                           </p>
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="report.html" class="nav-link">
+                           <i class="nav-icon fa fa-chart-bar"></i>
+                           <p>
+                              Reports
+                           </p>
+                        </a>
+                     </li>
+                  </ul>
+                  </li>
+                  </ul>
+               </nav>
+               <!-- /.sidebar-menu -->
+            </div>
+            <!-- /.sidebar -->
+         </aside>
+         <!-- Content Wrapper. Contains page content -->
+         <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <div class="content-header">
+               <div class="container-fluid">
+                  <div class="row mb-2">
+                     <div class="col-sm-6">
+                        <h1 class="m-0"><span class="fa fa-user"></span> My Profile</h1>
+                     </div>
+                     <!-- /.col -->
+                     <div class="col-sm-6">
+                        <ol class="breadcrumb float-sm-right">
+                           <li class="breadcrumb-item"><a href="#">Home</a></li>
+                           <li class="breadcrumb-item active">My Profile</li>
+                        </ol>
+                     </div>
+                     <!-- /.col -->
+                  </div>
+                  <!-- /.row -->
+               </div>
+               <!-- /.container-fluid -->
+            </div>
+            <!-- /.content-header -->
+            <!-- Main content -->
+            <section class="content">
+               <div class="container-fluid">
+                  <div class="card card-info">
+                     <div class="card-header">
+                        <h3 class="card-title">Profile Information</h3>
+                     </div>
+                     <!-- /.card-header -->
+                     <!-- form start -->
+                     <form>
+                        <div class="card-body">
+                           <div class="row">
+                              <div class="col-md-3">
+                                 <div class="form-group">
+                                    <img src="../asset/img/avatar.jpg" width="150" style="border-radius: 5px">
+                                    <label for="exampleInputFile">Choose Profile</label>
+                                    <div class="input-group">
+                                       <div class="custom-file">
+                                          <input type="file" class="custom-file-input" id="exampleInputFile">
+                                          <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-9">
+                                 <div class="card-header">
+                                    <span class="fa fa-user"> Profile Information</span>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-4">
+                                       <div class="form-group">
+                                          <label for="exampleInputEmail1">First Name</label>
+                                          <input type="email" class="form-control" placeholder="first name">
+                                       </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                       <div class="form-group">
+                                          <label for="exampleInputEmail1">Middle Name</label>
+                                          <input type="email" class="form-control" placeholder="middle name">
+                                       </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                       <div class="form-group">
+                                          <label for="exampleInputEmail1">Last Name</label>
+                                          <input type="email" class="form-control" placeholder="last name">
+                                       </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                       <div class="form-group">
+                                          <label>Gender</label>
+                                          <select class="form-control">
+                                             <option>Male</option>
+                                             <option>Female</option>
+                                          </select>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                       <div class="form-group">
+                                          <label for="exampleInputEmail1">Birthday</label>
+                                          <input type="date" class="form-control" placeholder="last name">
+                                       </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                       <div class="form-group">
+                                          <label for="exampleInputEmail1">Contact</label>
+                                          <input type="number" class="form-control" placeholder="contact">
+                                       </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                       <div class="form-group">
+                                          <label for="exampleInputEmail1">Email</label>
+                                          <input type="email" class="form-control" placeholder="email">
+                                       </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                       <div class="form-group">
+                                          <label for="exampleInputEmail1">Address</label>
+                                          <input type="email" class="form-control" placeholder="address">
+                                       </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                       <div class="card-header">
+                                          <span class="fa fa-key"> Account</span>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group">
+                                          <label for="exampleInputEmail1">Username</label>
+                                          <input type="email" class="form-control" placeholder="userna">
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group">
+                                          <label for="exampleInputEmail1">Password</label>
+                                          <input type="email" class="form-control" placeholder="**********">
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- /.card-body -->
+                        <div class="card-footer">
+                           <button type="submit" class="btn btn-primary">Save Changes</button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+               <!-- /.container-fluid -->
+            </section>
+            <!-- /.content -->
+         </div>
+         <!-- /.content-wrapper -->
+      </div>
+      <!-- ./wrapper -->
+      <!-- jQuery -->
+      <script src="../asset/jquery/jquery.min.js"></script>
+      <script src="../asset/js/adminlte.js"></script>
+   </body>
+</html>
